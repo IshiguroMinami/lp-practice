@@ -1,1 +1,151 @@
 @charset "utf-8";
+
+a {
+  text-decoration:none;
+}
+
+.header {
+  width: 100%;
+  background: #fff;
+  position: sticky;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #777;
+}
+
+.d--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li a {
+  color: #ffffff;
+  padding: 12px 14px;
+  font-size: 12px;
+  background-color: #6ba7eb;
+}
+/*ここまでヘッダー*/
+
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.copy {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 400px;
+  bottom: 400px;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+/*ここまでメインタイトル*/
+
+.work {
+  background-color: #e3f2fd;
+  width: 100%;
+  float: left;
+}
+
+.pc_illust img {
+  width: 250px;
+  margin-top: 50px;
+  flex-grow: 4;
+}
+
+.work_catch_copy {
+  text-align: center;
+  flex-grow: 6;
+}
+
+.work_copy {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.work_text {
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+/*ここまでWORKセクション*/
+
+
+.skills_copy {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.skills_icon {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*ここまでskillsセクション*/
+
+.plan {
+  background-color: #d0dfea;
+}
+
+.serect_plan_copy {
+  top: 50px;
+  bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+th,td {
+  border: solid 1px;
+  border-color: #ffffff;/* 枠線指定 */
+  text-align: center;
+}
+
+table {
+  border-collapse:  collapse;
+/* セルの線を重ねる */
+  align-items: center;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;               /* 高さ指定 */
+}
+
+#oregen {
+  width: 105mm;
+  height: 105mm;
+  background-color: aqua;
+}
