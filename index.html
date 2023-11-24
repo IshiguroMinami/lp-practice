@@ -7,11 +7,10 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Document</title>
 </head>
 <body>
-<!--ヘッダーここから-->
 <header class="header">
   <div class="inner d--flex">
     <div class="logo">
@@ -29,6 +28,7 @@
   </div>
 </header>
 <!--ヘッダーここまで-->
+
 <main>
   <section class="keyvisual">
     <img src="./img/keyvisual/keyvisual.jpg" alt="キービジュアル">
@@ -36,7 +36,9 @@
       <h1>WEB PRODUCTION COMPANY</h1>
       <h2>DIRECTION,CONTENT MARKETING</h2>
     </div>
-  </section><!-- メインタイトル、サブタイトル、背景画像がある部分ここまで-->
+  </section>
+  <!-- メインタイトル、サブタイトル、背景画像がある部分ここまで-->
+
   <section class="work">
     <div class="inner d--flex">
       <div class="pc_illust">
@@ -44,81 +46,124 @@
       </div>
       <div class="work_catch_copy">
         <p class="work_copy">WORK</p>
-        <p class="work_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu<br>nt ut labore et
-          dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br> ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis
-          aute irure dolor in repreh<br>enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint</p>
+          <p class="work_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint
+          </p>
+        </div>
       </div>
     </div>
-  </section><!-- 「WORK」のタイトルがある部分 -->
+  </section>
+  <!-- 「WORK」のタイトルがある部分 -->
   <section class="skills">
     <div class="inner">
       <p class="skills_copy">WE ARE SKILLS</p>
       <div class="skills_icon">
-        <img src="./img/skills/skills_1.png" alt="1">
-        <img src="./img/skills/skills_2.png" alt="2">
-        <img src="./img/skills/skills_3.png" alt="3">
-        <img src="./img/skills/skills_4.png" alt="4">
-        <img src="./img/skills/skills_5.png" alt="5">
-        <img src="./img/skills/skills_6.png" alt="6">
+        <div class="card">
+          <a href="#">
+            <img src="./img/skills/skills_1.png" alt="1">
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="./img/skills/skills_2.png" alt="2">
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="./img/skills/skills_3.png" alt="3">
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="./img/skills/skills_4.png" alt="4">
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="./img/skills/skills_5.png" alt="5">
+          </a>
+        </div>
+        <div class="card">
+          <a href="card">
+            <img src="./img/skills/skills_6.png" alt="6">
+          </a>
+        </div>
       </div>
-      </div>
+    </div>
   </section><!-- 「WE ARE SKILLS」のタイトルがある部分-->
   <section class="plan">
     <div class="inner">
       <p class="serect_plan_copy">SERECT PLAN</p>
-      <table>
-        <tr>
-          <th>PLAN</th>
-          <th>BASIC PLAN</th>
-          <th>STANDERD PLAN</th>
-          <th>ENTERPRISE PLAN</th>
-        </tr>
-        <tr>
-          <th>PRISE</th>
-          <td>¥100,000</td>
-          <td>¥200,000</td>
-          <td>¥300,000</td>
-        </tr>
-        <tr>
-          <th>DELIVERY</th>
-          <td>Manuscript</td>
-          <td>HTML</td>
-          <td>Manuscript,HTML,PSD</td>
-        </tr>
-        <tr>
-          <th>ANALYSIS</th>
-          <td>◯</td>
-          <td>◯</td>
-          <td>◯</td>
-        </tr>
-        <tr>
-          <th>IMPROVEMENT</th>
-          <td>×</td>
-          <td>◯</td>
-          <td>◯</td>
-        </tr>
-        <tr>
-          <th>DESIGN</th>
-          <td>×</td>
-          <td>×</td>
-          <td>◯</td>
-        </tr>
+      <table><!--テーブルにクラス名を入れる-->
+        <thead>
+          <tr>
+            <th>PLAN</th>
+            <th>BASIC PLAN</th>
+            <th>STANDERD PLAN</th>
+            <th>ENTERPRISE PLAN</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="plan_heading">PRISE</td>
+            <td>¥100,000</td>
+            <td>¥200,000</td>
+            <td>¥300,000</td>
+          </tr>
+          <tr>
+            <td class="plan_heading">DELIVERY</td>
+            <td>Manuscript</td>
+            <td>HTML</td>
+            <td>Manuscript,HTML,PSD</td>
+          </tr>
+          <tr>
+            <td class="plan_heading">ANALYSIS</td>
+            <td>◯</td>
+            <td>◯</td>
+            <td>◯</td>
+          </tr>
+          <tr>
+            <td class="plan_heading">IMPROVEMENT</td>
+            <td>×</td>
+            <td>◯</td>
+            <td>◯</td>
+          </tr>
+          <tr>
+            <td class="plan_heading">DESIGN</td>
+            <td>×</td>
+            <td>×</td>
+            <td>◯</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </section><!-- 「SELECT PLAN」のタイトルがある部分 -->
-  <nav class="sns"></nav><!-- iconが並んでいる部分 -->
+  <nav class="sns">
+    <div class="sns_flex">
+      <div class="icon">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="icon">
+        <i class="fab fa-dribbble"></i>
+      </div>
+      <div class="icon">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="icon">
+        <i class="far fa-envelope"></i><!-- "fab fa-envelope"はproなので文字化けしてしまいました。solidバージョンで代用します。-->
+      </div>
+    </div>
+  </nav><!-- iconが並んでいる部分 -->
   </main>
-
   <footer>
-
+    <div class="inner footer_flex">
+      <p>Copyright(C)</p>
+    </div>
   </footer>
-
-  <div id="oregen"></div>
-
-
   <!-- Wrokの部分のテキストはこちらを使ってください -->
   <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
   dolore magna
@@ -126,6 +171,7 @@
   consequat. Duis
   aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
   sint -->
+
 </body>
 
 </html>
