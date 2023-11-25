@@ -39,7 +39,13 @@ li a {
   padding: 12px 14px;
   font-size: 12px;
   background-color: #6ba7eb;
+  transition: all 0.3s ease;
 }
+
+li a:hover {
+	color: #333;
+}
+
 /*ここまでヘッダー*/
 
 .keyvisual_img {
@@ -116,6 +122,14 @@ h2 {
   margin-bottom: 70px;
 }
 
+.card {
+  opacity: 0.7;
+}
+
+.card:hover {
+  opacity: 1.0;
+}
+
 /*ここまでskillsセクション*/
 
 .plan {
@@ -172,6 +186,8 @@ tr>*:first-child {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #e3f2fd;  /* 背景色指定 */
+  pointer-events: none;
+  transition: all 0.5s ease;
 }
 
 .sns_flex {
@@ -179,7 +195,7 @@ tr>*:first-child {
   justify-content: center;
 }
 
-.icon {
+.sns_icon {
   width: 185px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -187,6 +203,11 @@ tr>*:first-child {
   overflow: hidden;
   font-size: 40px;
   text-align: center;
+  pointer-events: auto;
+}
+
+.sns:hover {
+  background-color: #fff;
 }
 
 /*ここまでSNSセクション*/
