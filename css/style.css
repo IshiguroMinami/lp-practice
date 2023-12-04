@@ -49,54 +49,64 @@ li a:hover {
 
 /*ここまでヘッダー*/
 
+.keyvisual {
+  width: 100%;
+  height: auto;
+}
+
 .keyvisual_img {
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-size: cover;
-  width: 100%;
-  height: auto;
   display: flex;
+  justify-content: center;
 }
 
 .keyvisual_copy {
   width: 100%;
   text-align: center;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 
 h1 {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  padding-top: 400px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
-  padding-bottom: 400px;
 }
 /*ここまでメインタイトル*/
 
+
 .work {
   background-color: #e3f2fd;
+  padding-top: 50px;
+}
+
+.work--flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .pc_illust {
-  margin-top: 50px;
   width: 250px;
 }
 
 .work_catch_copy {
   text-align: center;
   width: 64%;
+  padding-top: 20px;
 }
 
 .work_copy {
   font-size: 40px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .work_text {
@@ -107,20 +117,22 @@ h2 {
 
 /*ここまでWORKセクション*/
 
+.skills {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
 
 .skills_copy {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
-  padding-top: 50px;
 }
 
 .skills_icon {
   display: grid;
   gap: 100px;
   grid-template-columns: repeat(3,1fr);
-  margin-top: 50px;
-  margin-bottom: 70px;
+  padding-top: 50px;
 }
 
 .card {
@@ -135,11 +147,11 @@ h2 {
 
 .plan {
   background-color: #d0dfea;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .serect_plan_copy {
-  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   font-size: 40px;
@@ -174,7 +186,7 @@ td {
 }
 
 tr:nth-of-type(odd) td {
-  background-color:  #f9f9f9;    /* 背景色指定 */
+  background-color:  #f9f9f9;
 }
 
 tr>*:first-child {
@@ -186,7 +198,7 @@ tr>*:first-child {
 .sns {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #e3f2fd;  /* 背景色指定 */
+  background-color: #e3f2fd;
   pointer-events: none;
   transition: all 0.5s ease;
 }
@@ -215,12 +227,12 @@ tr>*:first-child {
 
 footer {
   background-color: #cfd8dc;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer_flex {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
   justify-content: end;
 }
 
