@@ -75,7 +75,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-h2 {
+.keyvisual_subcopy {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
@@ -93,14 +93,18 @@ h2 {
   justify-content: space-between;
 }
 
+.pc_illust_parents {
+  width: 40%;
+}
+
 .pc_illust {
   width: 250px;
 }
 
 .work_catch_copy {
   text-align: center;
-  width: 64%;
   padding-top: 20px;
+  width: 60%;
 }
 
 .work_copy {
@@ -135,11 +139,12 @@ h2 {
   padding-top: 50px;
 }
 
-.card {
+.skills_card {
   opacity: 0.7;
+  transition: all 0.7s ease;
 }
 
-.card:hover {
+.skills_card:hover {
   opacity: 1.0;
 }
 
@@ -200,7 +205,7 @@ tr>*:first-child {
   padding-bottom: 200px;
   background-color: #e3f2fd;
   pointer-events: none;
-  transition: all 0.5s ease;
+
 }
 
 .sns_flex {
@@ -217,9 +222,10 @@ tr>*:first-child {
   font-size: 40px;
   text-align: center;
   pointer-events: auto;
+  transition: all 0.5s ease;
 }
 
-.sns:hover {
+.sns_icon:hover {
   background-color: #fff;
 }
 
@@ -236,7 +242,7 @@ footer {
   justify-content: end;
 }
 
-p {
+.footer_copy {
   font-size: 10px;
   letter-spacing: 0.5px;
 }
