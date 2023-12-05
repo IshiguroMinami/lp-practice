@@ -27,11 +27,11 @@ img {
   position: sticky;
   top: 0;
   z-index: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header_logo {
-  margin-top: 15px;
-  margin-bottom: 15px;
   color: #777;
 }
 
@@ -51,14 +51,11 @@ li a:hover {
 
 .keyvisual {
   width: 100%;
-  height: auto;
 }
 
 .keyvisual_img {
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-size: cover;
-  display: flex;
-  justify-content: center;
 }
 
 .keyvisual_copy {
@@ -90,7 +87,6 @@ h1 {
 
 .work--flex {
   display: flex;
-  justify-content: space-between;
 }
 
 .pc_illust_parents {
@@ -99,6 +95,7 @@ h1 {
 
 .pc_illust {
   width: 250px;
+  margin: auto;
 }
 
 .work_catch_copy {
