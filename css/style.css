@@ -35,7 +35,7 @@ img {
   color: #777;
 }
 
-li a {
+.contact .contact_inline {
   color: #ffffff;
   padding: 12px 14px;
   font-size: 12px;
@@ -43,7 +43,7 @@ li a {
   transition: all 0.3s ease;
 }
 
-li a:hover {
+.contact .contact_inline:hover {
 	color: #333;
 }
 
@@ -129,7 +129,7 @@ h1 {
   text-align: center;
 }
 
-.skills_icon {
+.skills_icon_area {
   display: grid;
   gap: 100px;
   grid-template-columns: repeat(3,1fr);
