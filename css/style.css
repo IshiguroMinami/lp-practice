@@ -251,6 +251,10 @@ footer {
   width: 97%;
 }
 
+.keyvisual_img {
+  background-position: center;
+}
+
 .keyvisual_copy {
   padding-top: 250px;
   padding-bottom: 250px;
@@ -298,7 +302,7 @@ footer {
   grid-template-columns: repeat(1,1fr);
 }
 
-.skills_card:nth-child(4n+3) {
+.skills_card:nth-child(3n) {
   margin-bottom: 80px;
 }
 
@@ -368,7 +372,7 @@ h1 {
   grid-template-columns: repeat(1,1fr);
 }
 
-.skills_card:nth-child(4n+3) {
+.skills_card:nth-child(3n) {
   margin-bottom: 80px;
 }
 
