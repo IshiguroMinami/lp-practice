@@ -133,7 +133,7 @@ h1 {
   display: grid;
   gap: 100px;
   grid-template-columns: repeat(3,1fr);
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .skills_card {
@@ -153,8 +153,8 @@ h1 {
   padding-bottom: 50px;
 }
 
-.serect_plan_copy {
-  padding-bottom: 50px;
+.select_plan_copy {
+  margin-bottom: 50px;
   text-align: center;
   font-size: 40px;
   letter-spacing: 10px;
@@ -291,7 +291,7 @@ footer {
 
 .skills_icon_area {
   display: block;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .skills_card {
